@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Basket/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Basket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Basket.dll": {}
+        }
+      },
+      "Catalog/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.dll": {}
+        }
+      },
+      "Order/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/Order.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Order.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Basket/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Catalog/Basket/Basket.csproj",
+      "msbuildProject": "../../Modules/Catalog/Basket/Basket.csproj"
+    },
+    "Catalog/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Catalog/ClassLibrary1/Catalog.csproj",
+      "msbuildProject": "../../Modules/Catalog/ClassLibrary1/Catalog.csproj"
+    },
+    "Order/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/Order/Order/Order.csproj",
+      "msbuildProject": "../../Modules/Order/Order/Order.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Basket >= 1.0.0",
+      "Catalog >= 1.0.0",
+      "Order >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Catalog\\Basket\\Basket.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Catalog\\Basket\\Basket.csproj"
+            },
+            "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Catalog\\ClassLibrary1\\Catalog.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Catalog\\ClassLibrary1\\Catalog.csproj"
+            },
+            "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Order\\Order\\Order.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Modules\\Order\\Order\\Order.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Catalog is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Catalog supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Catalog",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Order is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Order supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Order",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Basket is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Basket supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "libraryId": "Basket",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

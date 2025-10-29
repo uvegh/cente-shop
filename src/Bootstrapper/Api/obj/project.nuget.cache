@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "dgSpecHash": "CZFWfgQ1Ci0=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Catalog is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Catalog supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "filePath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "libraryId": "Catalog",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Order is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Order supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "filePath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "libraryId": "Order",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Basket is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project Basket supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "filePath": "C:\\Users\\USER\\source\\repos\\cente-shop\\src\\Bootstrapper\\Api\\Api.csproj",
+      "libraryId": "Basket",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
