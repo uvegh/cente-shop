@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\bin\Debug\net8.0\Order.deps.json
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\bin\Debug\net8.0\Order.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\bin\Debug\net8.0\Order.pdb
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\bin\Debug\net8.0\Shared.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\bin\Debug\net8.0\Shared.pdb
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.AssemblyInfo.cs
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.csproj.Up2Date
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\refint\Order.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\Order.pdb
+C:\Users\USER\source\repos\cente-shop\src\Modules\Order\Order\obj\Debug\net8.0\ref\Order.dll

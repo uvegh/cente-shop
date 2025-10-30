@@ -1,0 +1,5 @@
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net9.0\Catalog.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net9.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net9.0\Catalog.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net9.0\Catalog.AssemblyInfo.cs
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net9.0\Catalog.csproj.CoreCompileInputs.cache
