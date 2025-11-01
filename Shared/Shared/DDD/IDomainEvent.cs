@@ -1,5 +1,5 @@
 ﻿
-//interface for domain event in DDD pattern
+
 using MediatR;
 namespace Shared.DDD
 {

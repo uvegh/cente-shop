@@ -10,3 +10,6 @@ C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\Shared.
 C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\refint\Shared.dll
 C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\Shared.pdb
 C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\ref\Shared.dll
+C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\bin\Debug\net8.0\Shared.runtimeconfig.json
+C:\Users\USER\source\repos\cente-shop\src\Shared\Shared\obj\Debug\net8.0\Shared.genruntimeconfig.cache
