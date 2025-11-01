@@ -46,3 +46,4 @@ C:\Users\USER\source\repos\cente-shop\src\Bootstrapper\Api\bin\Debug\net8.0\Micr
 C:\Users\USER\source\repos\cente-shop\src\Bootstrapper\Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\USER\source\repos\cente-shop\src\Bootstrapper\Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\USER\source\repos\cente-shop\src\Bootstrapper\Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\USER\source\repos\cente-shop\src\Bootstrapper\Api\obj\Debug\net8.0\Api.sourcelink.json
