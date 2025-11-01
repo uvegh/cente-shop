@@ -1,7 +1,3 @@
 ﻿namespace Catalog.Products.Events;
 
-using Catalog.Product.Models;
-
-
-
-public record  ProductCreateEvent(Product product):IDomainEvent;
+public record  ProductCreateEvent(Product  Product):IDomainEvent;

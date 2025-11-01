@@ -13,3 +13,4 @@ C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debu
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net8.0\refint\Catalog.dll
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net8.0\Catalog.pdb
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net8.0\ref\Catalog.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\ClassLibrary1\obj\Debug\net8.0\Catalog.sourcelink.json

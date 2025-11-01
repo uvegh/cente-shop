@@ -13,3 +13,4 @@ C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\Basket\obj\Debug\net8.
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\Basket\obj\Debug\net8.0\refint\Basket.dll
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\Basket\obj\Debug\net8.0\Basket.pdb
 C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\Basket\obj\Debug\net8.0\ref\Basket.dll
+C:\Users\USER\source\repos\cente-shop\src\Modules\Catalog\Basket\obj\Debug\net8.0\Basket.sourcelink.json
