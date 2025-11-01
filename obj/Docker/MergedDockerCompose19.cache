@@ -1,0 +1,28 @@
+name: dockercompose9759386140812254811
+services:
+  centeshopdb:
+    container_name: centeshopdb
+    environment:
+      POSTGRES_DB: Centeshopdb
+      POSTGRES_PASSWORD: cente2025
+      POSTGRES_USER: cente
+    image: postgres
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_centeshopdb
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose9759386140812254811_default
+volumes:
+  postgres_centeshopdb:
+    name: dockercompose9759386140812254811_postgres_centeshopdb

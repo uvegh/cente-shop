@@ -1,0 +1,48 @@
+name: dockercompose9759386140812254811
+services:
+  api:
+    build:
+      context: C:\Users\USER\source\repos\cente-shop\src
+      dockerfile: Bootstrapper/Api/Dockerfile
+    container_name: centeshop_api
+    depends_on:
+      centeshopdb:
+        condition: service_started
+        required: true
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+  centeshopdb:
+    container_name: centeshopdb
+    environment:
+      POSTGRES_DB: Centeshopdb
+      POSTGRES_PASSWORD: cente2025
+      POSTGRES_USER: postgres
+    image: postgres:latest
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: volume
+        source: postgres_centeshopdb
+        target: /var/lib/postgresql
+        volume: {}
+      - type: volume
+        source: postgres_centeshopdb
+        target: /var/lib/postgresql/data
+        volume: {}
+networks:
+  default:
+    name: dockercompose9759386140812254811_default
+volumes:
+  postgres_centeshopdb:
+    name: dockercompose9759386140812254811_postgres_centeshopdb
