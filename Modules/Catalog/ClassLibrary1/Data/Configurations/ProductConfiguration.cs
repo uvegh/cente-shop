@@ -15,5 +15,7 @@ public  class ProductConfiguration:IEntityTypeConfiguration<Product>
         builder.Property(e => e.ImageUrl).HasMaxLength(100);
         builder.Property(e => e.Price).IsRequired();
 
+
+
     }
 }

@@ -26,7 +26,10 @@ public class Product : Aggregate<Guid>
         };
         //create new domain event productCreateEvent
        product.AddDomainEvent(new ProductCreateEvent(product));
-
+        product.CreatedBy = "System";
+        product.CreatedAt = DateTime.UtcNow;
+        product.UpdatedAt = DateTime.UtcNow;
+        product.UpdatedBy = "System";
 
     return product;
        
